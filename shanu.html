@@ -1,0 +1,54 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Just Practice</title>
+</head>
+<link rel="stylesheet" href="/shanu.css">
+<body>
+  <div class="pricelist">
+   <h1> </h1>
+    <h1>MENU</h1>
+    <table>
+      <tr>
+        <td>Idly</td>
+        <td>Vada</td>
+        <td>Dosa</td>
+        <td>Puri</td>
+        <td>Onion Dosa</td>
+        <td>Egg Dosa</td>
+      </tr>
+      <tr>
+        <td>20(3)</td>
+        <td>30(3)</td>
+        <td>25</td>
+        <td>30(2)</td>
+        <td>30</td>
+        <td>40</td>
+      </tr>
+    </table>
+  </div>
+  <br>
+  <br>
+  <br>
+
+  <form class="bill1">
+    <select id="sf">
+  <option selected value = "Idly">Idly</option>
+  <option value = "Vada">Vada</option>
+  <option value = "Dosa">Dosa</option>
+  <option value = "Puri">Puri</option>
+  <option value = "Onion Dosa">Onion Dosa</option>
+  <option value = "Egg Dosa">Egg Dosa</option>
+</select>
+    <input type="text" id="entrybox" pattern="\d*" placeholder="Input">&nbsp;<b></b>&nbsp;&nbsp;
+    <input type="button" value="ADD T0 CART" class="mybutton" id="getme">
+  </form>
+  <br><br>
+  <textarea class="bill" cols="100" rows="12" id="writeme"></textarea>
+  <br>
+  <input type="submit" value="CLEAR TEXTAREA" class="mybutton bill3" id="clr">
+  <input type="submit" value="PAY BILL" class="mybutton bill2" id="out">
+  </body>
+  <script src="/shanu.js"></script>
+</html>
